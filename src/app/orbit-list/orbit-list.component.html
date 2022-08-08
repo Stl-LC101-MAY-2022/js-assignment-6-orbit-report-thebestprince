@@ -4,7 +4,7 @@
         <th (click)="sort('type')" class="sortable">Type</th>
         <th>Operational</th>
         <th>Orbit Type</th>
-        <th>Launch Date</th>
+        <th>Launch Date</th> 
     </tr>
     <tr *ngFor = "let satellite of satellites" class="data-row">
         <td>{{satellite.name}}</td>
@@ -15,7 +15,7 @@
         <!-- [.warning-color]="red" [type]="" -->
     </tr>
 </table>
-
+<!-- TODO 2b: use *ngFor to display satellite data in the table -->
 <!-- TODO 2b: use *ngFor to display satellite data in the table -->
 <!-- TODO 3b: add style directive to conditionally highlight satellite type -->
 
